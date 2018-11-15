@@ -85,3 +85,23 @@
        color: #fff;
        background-color: #dc3545;
    }
+
+/* List */
+
+ul.list { 
+   padding: 0;
+   margin-top: 25px;
+  }
+
+.list li {
+    line-height: 1rem;
+    border-bottom: 1px dotted #ccc;
+    list-style-type: none;
+   }
+
+.list li:last-child {
+    border-bottom: 0;
+   }
+.list span {
+    font-size: 1rem;  
+   }
