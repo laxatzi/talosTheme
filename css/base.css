@@ -15,7 +15,7 @@
     
  
          img {
-              max-width: 100%;
+              max-width: 90%;
               height: auto;
               border: 0;
               vertical-align: middle;
@@ -25,7 +25,7 @@
    h1,
    h2,
    h3 {
-       margin: .5rem 0 .35rem;
+       margin: .25rem 0 .35rem;
        font-weight: 300;
         text-transform: uppercase;		 
        }
