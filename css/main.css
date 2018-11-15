@@ -51,3 +51,23 @@
 /* MODULES */
 .lead { color: #fff; }
 .padding-extended { padding: 7rem 0; }
+
+/* ICON STYLE */
+
+  .fa-primary {
+      font-size: 1.44rem;
+      color: #DC3545;
+      margin-bottom: .845rem;
+      padding: .635rem .835rem;
+   }
+
+ .fa-primary-border {
+     border-radius: 5px;
+     border: 1px solid #DC3545;
+   }
+ .fa-check {
+     margin-right: 5px;
+     font-size: 1rem;
+     color: #DC3545;
+     margin: .645rem auto;
+  }
