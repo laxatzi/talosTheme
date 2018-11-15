@@ -1,1 +1,8 @@
 
+section {
+    margin: 2rem 0 2rem;
+}
+
+footer section {
+    margin: 0;
+}
