@@ -71,3 +71,17 @@
      color: #DC3545;
      margin: .645rem auto;
   }
+
+/* button styles */
+
+.btn-outline-custom {
+    background-color: transparent;
+    color: #DC3545;
+    border: 2px solid #DC3545;
+ }
+
+   .btn-outline-custom:hover,
+   .btn-outline-custom:focus {
+       color: #fff;
+       background-color: #dc3545;
+   }
