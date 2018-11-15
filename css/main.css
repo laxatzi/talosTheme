@@ -1,17 +1,26 @@
-	/* ^HEADER	    */
- 
-       .header-main {
-        background-image: url("../img/insuranceAgentSmall.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center;
-        margin: 0;
-        height: 100hv;
-        width: 100%;
-        position: relative;
-        z-index: 1;
+/* MODULES */
+ .removed {
+    display: none;
+}
+.lead { color: #fff; }
+  .padding-extended {
+      padding: 7rem 0;
+  }
+
+/* ^HEADER	    */
+ .header-main {
+     background-image: url("../img/insuranceAgentSmall.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center;
+     margin: 0;
+     height: 100hv;
+     width: 100%;
+     position: relative;
+     z-index: 1;
     }
+
     .header-main::after {
         position:absolute;
         z-index:-1;
@@ -23,31 +32,33 @@
         background: rgba(0, 0, 0, 0.8);
       }
          
-.lead {
-    color: #fff;
-}
+/* NAVBAR */
+
 .nav-main {
     background-color: transparent;
 }
-.nav-main a:link,
-.nav-main a:visited{
-    color: #fff;
-}
-.nav-main a:hover,
-.nav-main a:focus {
-    color: #DC3545;
-}
+   .nav-main a:link,
+   .nav-main a:visited{
+       color: #fff;
+   }
+   .nav-main a:hover,
+   .nav-main a:focus {
+       color: #DC3545;
+    }
 .navbar-toggler i {
     color: #FFF;
 }
 .navbar-nav {
     background-color: #343A40;
 }
-.navbar-nav li a:link,
-.navbar-nav li a:visited {
-    text-align: center;
-    padding: 15px 0;
-}
+   .navbar-nav li a:link,
+   .navbar-nav li a:visited {
+       text-align: center;
+       padding: 15px 0;
+   }
+
+/* Jumbo */
+
 .section-jumbo {
     padding:0;
     background-color: transparent;
@@ -55,15 +66,13 @@
    z-index: -100;
   }
 
-  .padding-extended {
-      padding: 7rem 0;
-  }
+/* icon */
+
   .fa-primary {
     font-size: 1.44rem;
     color: #DC3545;
     margin-bottom: .845rem;
     padding: .635rem .835rem;
-
 }
 
 .fa-primary-border {
@@ -77,6 +86,7 @@
     margin: .645rem auto;
 }
 
+/* button */
 .btn-outline-custom {
     background-color: transparent;
     color: #DC3545;
@@ -88,6 +98,7 @@
     background-color: #dc3545;
 }
 
+/* List */
 ul.list { padding: 0; margin-top: 25px;}
 
 .list li {
@@ -102,10 +113,8 @@ ul.list { padding: 0; margin-top: 25px;}
 .list span {
     font-size: 1rem;  
 }
-.removed {
-    display: none;
-}
 
+/* Block */
 .block {
     padding: .85rem;
     border: 1px solid #DFDFDF;
@@ -113,5 +122,4 @@ ul.list { padding: 0; margin-top: 25px;}
 }
 .services-block {
     border: none;
- 
-}
+ }
