@@ -6,3 +6,6 @@ section {
 footer section {
     margin: 0;
 }
+form {
+    max-width: 90%;
+}
