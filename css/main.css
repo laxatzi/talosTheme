@@ -33,10 +33,13 @@
       }
          
 /* NAVBAR */
-
+.navbar { 
+     margin: 0;
+     padding: 0;
+   }
 .nav-main {
     background-color: transparent;
-}
+   }
    .nav-main a:link,
    .nav-main a:visited{
        color: #fff;
