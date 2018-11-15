@@ -23,4 +23,32 @@
         background: rgba(0, 0, 0, 0.8);
       }
 
+ /* Navbar nav */
 
+.nav-main {
+    background-color: transparent;
+}
+   .nav-main a:link,
+   .nav-main a:visited{
+       color: #fff;
+   }
+   .nav-main a:hover,
+   .nav-main a:focus {
+       color: #DC3545;
+   }
+.navbar-toggler i {
+    color: #FFF;
+}
+.navbar-nav {
+    background-color: #343A40;
+}
+.navbar-nav li a:link,
+.navbar-nav li a:visited {
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* MODULES */
+.lead {
+    color: #fff;
+}
