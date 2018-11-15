@@ -105,3 +105,11 @@ ul.list {
 .list span {
     font-size: 1rem;  
    }
+
+/* Block */
+.block {
+    padding: .85rem;
+    border: 1px solid #DFDFDF;
+    margin-bottom: 0.85rem;
+   }
+.services-block { border: none; }
