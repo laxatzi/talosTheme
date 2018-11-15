@@ -109,8 +109,8 @@ ul.list {
 
 /* Block */
 .block {
-    padding: .85rem;
+    padding: 10px .55rem;
     border: 1px solid #DFDFDF;
-    margin-bottom: 0.85rem;
+    margin-bottom: 0.55rem;
    }
 .services-block { border: none; }
