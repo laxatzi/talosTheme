@@ -1,18 +1,18 @@
-	/* ^HEADER	    */
+/* ^HEADER	    */
  
-       .header-main {
-        background-image: url("../img/insuranceAgentSmall.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center;
-        margin: 0;
-        height: 100hv;
-        width: 100%;
-        position: relative;
-        z-index: 1;
-    }
-       .header-main::after {
+.header-main {
+    background-image: url("../img/insuranceAgentSmall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    height: 100hv;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+    .header-main::after {
         position:absolute;
         z-index:-1;
         height: 100%;
@@ -22,3 +22,5 @@
         content: "";
         background: rgba(0, 0, 0, 0.8);
       }
+
+
