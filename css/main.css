@@ -31,7 +31,9 @@
         content: "";
         background: rgba(0, 0, 0, 0.8);
       }
-         
+  .lead {
+    color: #fff;
+}       
 /* NAVBAR */
 .navbar { 
      margin: 0;
@@ -78,8 +80,9 @@
    z-index: -100;
   }
 
-/* icon */
-
+  .padding-extended {
+      padding: 7rem 0;
+  }
   .fa-primary {
     font-size: 1.44rem;
     color: #DC3545;
