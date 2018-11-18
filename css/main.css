@@ -156,3 +156,39 @@ ul.list {
 .services-block {
     border: none;
  }
+
+/* Testimonials section */
+.testimonials {
+    background-image: url("../img/calculator-large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.testimonials::after {
+    position:absolute;
+    z-index:-1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    background: rgba(0, 0, 0, 0.8);
+  }
+.quote {
+    font-size: 90%;
+    font-style: oblique;
+    margin-top: 15px;
+}
+
+.testimonials-block {
+    border: none;
+}
+.foter {
+    font-size: 75%;
+}
