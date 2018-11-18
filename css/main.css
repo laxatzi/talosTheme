@@ -131,6 +131,22 @@ ul.list {
 .list span {
     font-size: 1rem;  
 }
+/* COPY */
+.copy p {
+    color: #ccc;
+    font-size: 75%;
+    padding: 10px 10px 0;
+}
+.copy a:link,
+.copy a:visited {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+.copy a:hover,
+.copy a:focus {
+    color: #dc3545;
+}
 
 /* Block */
 .block {
