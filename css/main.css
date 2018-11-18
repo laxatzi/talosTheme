@@ -149,6 +149,9 @@ ul.list {
 }
 
 /* Block */
+.removed {
+    display: none;
+}
 .block {
     padding: .85rem;
     border: 1px solid #DFDFDF;
