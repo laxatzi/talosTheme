@@ -59,7 +59,16 @@
        text-align: center;
        padding: 15px 0;
    }
-
+.nav li a:link,
+.nav li a:visited {
+     padding:  10px 10px 5px;
+     text-align: center;
+     color: #ccc;
+}
+.nav li a:hover,
+.nav li a:focus {
+    color: #DC3545;
+}
 /* Jumbo */
 
 .section-jumbo {
