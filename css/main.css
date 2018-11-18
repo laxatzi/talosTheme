@@ -114,7 +114,10 @@
 }
 
 /* List */
-ul.list { padding: 0; margin-top: 25px;}
+ul.list { 
+    padding: 0; 
+    margin-top: 25px;
+}
 
 .list li {
     line-height: 1rem;
