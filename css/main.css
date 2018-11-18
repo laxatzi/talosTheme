@@ -31,9 +31,7 @@
         content: "";
         background: rgba(0, 0, 0, 0.8);
       }
-  .lead {
-    color: #fff;
-}       
+        
 /* NAVBAR */
 .navbar { 
      margin: 0;
@@ -149,13 +147,11 @@ ul.list {
 }
 
 /* Block */
-.removed {
-    display: none;
-}
 .block {
-    padding: .85rem;
+    padding:10px .55rem;
     border: 1px solid #DFDFDF;
-    margin-bottom: 0.85rem;
+    margin-bottom: 0.55rem;
+    text-align: center;
 }
 .services-block {
     border: none;
