@@ -6,6 +6,9 @@
   .padding-extended {
       padding: 7rem 0;
   }
+.bg-lightgrey {
+    background-color: #F4F4F4;
+}
 
 /* ^HEADER	    */
  .header-main {
@@ -15,7 +18,7 @@
      background-attachment: fixed;
      background-position: center;
      margin: 0;
-     height: 100hv;
+     height: 90hv;
      width: 100%;
      position: relative;
      z-index: 1;
@@ -31,7 +34,7 @@
         content: "";
         background: rgba(0, 0, 0, 0.8);
       }
-         
+        
 /* NAVBAR */
 .navbar { 
      margin: 0;
@@ -59,7 +62,16 @@
        text-align: center;
        padding: 15px 0;
    }
-
+.nav li a:link,
+.nav li a:visited {
+     padding:  10px 10px 5px;
+     text-align: center;
+     color: #ccc;
+}
+.nav li a:hover,
+.nav li a:focus {
+    color: #DC3545;
+}
 /* Jumbo */
 
 .section-jumbo {
@@ -69,8 +81,9 @@
    z-index: -100;
   }
 
-/* icon */
-
+  .padding-extended {
+      padding: 7rem 0;
+  }
   .fa-primary {
     font-size: 1.44rem;
     color: #DC3545;
@@ -102,7 +115,10 @@
 }
 
 /* List */
-ul.list { padding: 0; margin-top: 25px;}
+ul.list { 
+    padding: 0; 
+    margin-top: 25px;
+}
 
 .list li {
     line-height: 1rem;
@@ -116,13 +132,66 @@ ul.list { padding: 0; margin-top: 25px;}
 .list span {
     font-size: 1rem;  
 }
+/* COPY */
+.copy p {
+    color: #ccc;
+    font-size: 75%;
+    padding: 10px 10px 0;
+}
+.copy a:link,
+.copy a:visited {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+.copy a:hover,
+.copy a:focus {
+    color: #dc3545;
+}
 
 /* Block */
 .block {
-    padding: .85rem;
+    padding:10px .55rem;
     border: 1px solid #DFDFDF;
-    margin-bottom: 0.85rem;
+    margin-bottom: 0.55rem;
+    text-align: center;
 }
 .services-block {
     border: none;
  }
+
+/* Testimonials section */
+.testimonials {
+    background-image: url("../img/calculator-large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.testimonials::after {
+    position:absolute;
+    z-index:-1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    background: rgba(0, 0, 0, 0.8);
+  }
+.quote {
+    font-size: 90%;
+    font-style: oblique;
+    margin-top: 15px;
+}
+
+.testimonials-block {
+    border: none;
+}
+.foter {
+    font-size: 75%;
+}
