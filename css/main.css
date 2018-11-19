@@ -195,3 +195,9 @@ ul.list {
 .foter {
     font-size: 75%;
 }
+
+@media screen and (min-width: 768px) {
+    .img-removed {
+        display: block;
+    }
+}
