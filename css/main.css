@@ -211,5 +211,13 @@ ul.list {
         font-size: 1.25rem;
         margin: .845rem auto;
     }
+ .list span {
+    font-size: 1.15rem;  
+}
+
+.block {
+    padding: 15px .75rem;
+    margin-bottom: 0.75rem;
+}
     
 }
