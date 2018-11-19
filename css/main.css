@@ -200,4 +200,16 @@ ul.list {
     .img-removed {
         display: block;
     }
+    .fa-custom {
+        font-size: 1.84rem;
+        padding: .835rem .1.035rem;
+    
+    }
+  
+    .fa-check {
+        margin-right: 20px;
+        font-size: 1.25rem;
+        margin: .845rem auto;
+    }
+    
 }
