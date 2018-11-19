@@ -200,6 +200,9 @@ ul.list {
     .img-removed {
         display: block;
     }
+  .header-main {
+        height: 100vh;
+     }
     .fa-custom {
         font-size: 1.84rem;
         padding: .835rem .1.035rem;
