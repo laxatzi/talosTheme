@@ -197,7 +197,18 @@ ul.list {
 }
 
 @media screen and (min-width: 768px) {
-    .img-removed {
+ 
+    .navbar-nav {
+        background-color: transparent;
+    }
+    
+    .navbar-nav li a:link,
+    .navbar-nav li a:visited {
+        padding: 25px 0;
+        font-size: 1.15rem;
+    }   
+ 
+ .img-removed {
         display: block;
     }
   .header-main {
