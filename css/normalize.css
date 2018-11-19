@@ -9,3 +9,15 @@ footer section {
 form {
     max-width: 90%;
 }
+@media screen and (min-width: 768px) {
+    section {
+        padding-top: 40px;
+    }
+    footer {
+        margin-top: 40px;
+    }
+    footer section {
+        padding-top: 10px;
+    }
+  
+}
