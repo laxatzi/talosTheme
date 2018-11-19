@@ -203,24 +203,22 @@ ul.list {
   .header-main {
         height: 100vh;
      }
-    .fa-custom {
-        font-size: 1.84rem;
-        padding: .835rem .1.035rem;
-    
+  .fa-custom {
+       font-size: 1.84rem;
+       padding: .835rem .1.035rem;
     }
   
-    .fa-check {
-        margin-right: 20px;
-        font-size: 1.25rem;
-        margin: .845rem auto;
+  .fa-check {
+       margin-right: 20px;
+       font-size: 1.25rem;
+       margin: .845rem auto;
     }
- .list span {
-    font-size: 1.15rem;  
-}
+  .list span {
+     font-size: 1.15rem;  
+   }
 
 .block {
     padding: 15px .75rem;
     margin-bottom: 0.75rem;
-}
-    
-}
+  }
+ }
