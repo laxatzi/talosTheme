@@ -1,5 +1,5 @@
 /* MODULES */
- .removed {
+ .img-removed {
     display: none;
 }
 .lead { color: #fff; }
@@ -200,4 +200,28 @@ ul.list {
     .img-removed {
         display: block;
     }
-}
+  .header-main {
+        height: 100vh;
+     }
+  .fa-custom {
+       font-size: 1.84rem;
+       padding: .835rem .1.035rem;
+    }
+  
+  .fa-check {
+       margin-right: 20px;
+       font-size: 1.25rem;
+       margin: .845rem auto;
+    }
+  .list span {
+     font-size: 1.15rem;  
+   }
+
+.block {
+    padding: 15px .75rem;
+    margin-bottom: 0.75rem;
+  }
+.quote {
+    font-size: 100%;
+ }
+ }
