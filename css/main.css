@@ -221,4 +221,7 @@ ul.list {
     padding: 15px .75rem;
     margin-bottom: 0.75rem;
   }
+.quote {
+    font-size: 100%;
+ }
  }
