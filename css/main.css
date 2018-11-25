@@ -132,7 +132,7 @@ ul.list {
 }
 
 .list li {
-    line-height: 1rem;
+    line-height: 145%;
     border-bottom: 1px dotted #ccc;
     list-style-type: none;
 
