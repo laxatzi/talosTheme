@@ -85,14 +85,14 @@
   .padding-extended {
       padding: 7rem 0;
   }
-  .fa-primary {
+  .fa-custom {
     font-size: 1.44rem;
     color: #DC3545;
     margin-bottom: .845rem;
     padding: .635rem .835rem;
 }
 
-.fa-primary-border {
+.fa-custom-border {
     border-radius: 5px;
     border: 1px solid #DC3545;
 }
