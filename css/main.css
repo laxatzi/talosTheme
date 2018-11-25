@@ -85,14 +85,14 @@
   .padding-extended {
       padding: 7rem 0;
   }
-  .fa-primary {
+  .fa-custom {
     font-size: 1.44rem;
     color: #DC3545;
     margin-bottom: .845rem;
     padding: .635rem .835rem;
 }
 
-.fa-primary-border {
+.fa-custom-border {
     border-radius: 5px;
     border: 1px solid #DC3545;
 }
@@ -115,6 +115,16 @@
     background-color: #dc3545;
 }
 
+.btn-outline-custom-reverse {
+    color: #fff;
+    background-color: #dc3545;
+}
+.btn-outline-custom-reverse:hover,
+.btn-outline-custom-reverse:focus {
+    background-color: transparent;
+    color: #DC3545;
+    border: 2px solid #DC3545;
+}
 /* List */
 ul.list { 
     padding: 0; 
@@ -122,7 +132,7 @@ ul.list {
 }
 
 .list li {
-    line-height: 1rem;
+    line-height: 145%;
     border-bottom: 1px dotted #ccc;
     list-style-type: none;
 
@@ -141,7 +151,7 @@ ul.list {
 }
 .copy a:link,
 .copy a:visited {
-    color: #ccc;
+    color: #4C88C9;
     text-decoration: underline;
 }
 
@@ -160,7 +170,9 @@ ul.list {
 .services-block {
     border: none;
  }
-
+.bg-lightgrey {
+    background-color: #F4F4F4;
+}
 /* Testimonials section */
 .testimonials {
     background-image: url("../img/calculator-large.jpg");
@@ -197,8 +209,89 @@ ul.list {
     font-size: 75%;
 }
 
+/* TERMS */
+
+.header-banner  {
+        background-image: url("../img/calculator-large.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        margin: 0;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        color: #fff;
+    }
+    .header-banner::after {
+        position:absolute;
+        z-index:-1;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        content: "";
+        background: rgba(0, 0, 0, 0.9);
+      }
+
+    .address li {
+        list-style-type: none;
+    }
+    .address > small {
+        padding-bottom: 20px;
+    }
+    .breadcrumb {
+        background-color: transparent;
+        font-size: 90%;
+        font-weight: 300;
+        z-index: 10;
+    }
+    .breadcrumb li a:link,
+    .breadcrumb li a:visited {
+        color: #fff;
+    }
+    .breadcrumb li a:hover,
+    .breadcrumb li a:focus {
+        color: #dc3545;
+    }
+    .breadcrumb li.active {
+        color: #DC3545;
+    }
+ .nav li  a.active:link,
+ .nav li a.active:visited {
+    color: #DC3545;
+
+ }
+ .section-referral-how {
+     padding: 0 15px;
+ }
+.referral-list li {
+    list-style: none;
+}
+.card-link:hover {  /* ovewrite bootsrap  */
+    text-decoration: none;
+    color: #DC3545;
+}
+.insurance-main img {
+    width: 13%;
+}
+.pdf-links li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.pdf-links li:last-child {
+    margin-bottom: 5px;
+}
+.pdf-links a{
+    font-size: 85%;
+}
+.pdf-links img {
+    margin-right: 10px;
+}
 @media screen and (min-width: 768px) {
- 
+    .lead {
+        font-size: 1.65rem;
+    }
     .navbar-nav {
         background-color: transparent;
     }
@@ -206,7 +299,8 @@ ul.list {
     .navbar-nav li a:link,
     .navbar-nav li a:visited {
         padding: 25px 0;
-        font-size: 1.15rem;
+        font-size: 1.25rem;
+        font-weight: 300;
     }   
  
  .img-removed {
@@ -225,8 +319,21 @@ ul.list {
        font-size: 1.25rem;
        margin: .845rem auto;
     }
+
+    .fa-social {
+        font-size: 1.555rem;
+    }
+    
+    .section-referral .block-icon .fa-custom {
+        font-size: 5rem;
+        padding: .835rem .1.035rem;
+    }
+    .section-referral .block-icon {
+        padding-top: 20px;
+    }
   .list span {
      font-size: 1.15rem;  
+     font-weight: 300;
    }
 
 .block {
@@ -236,4 +343,14 @@ ul.list {
 .quote {
     font-size: 100%;
  }
+ .terms {
+    padding-bottom: 20px;
  }
+ .copy p {
+    font-size: 90%;
+ }
+ .section-video {
+    padding-bottom: 30px;
+ }
+
+}
