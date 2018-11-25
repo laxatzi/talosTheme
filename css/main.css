@@ -299,7 +299,8 @@ ul.list {
     .navbar-nav li a:link,
     .navbar-nav li a:visited {
         padding: 25px 0;
-        font-size: 1.15rem;
+        font-size: 1.25rem;
+        font-weight: 300;
     }   
  
  .img-removed {
