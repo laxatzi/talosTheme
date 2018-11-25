@@ -321,6 +321,7 @@ ul.list {
     }
   .list span {
      font-size: 1.15rem;  
+     font-weight: 300;
    }
 
 .block {
