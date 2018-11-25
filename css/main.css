@@ -115,6 +115,16 @@
     background-color: #dc3545;
 }
 
+.btn-outline-custom-reverse {
+    color: #fff;
+    background-color: #dc3545;
+}
+.btn-outline-custom-reverse:hover,
+.btn-outline-custom-reverse:focus {
+    background-color: transparent;
+    color: #DC3545;
+    border: 2px solid #DC3545;
+}
 /* List */
 ul.list { 
     padding: 0; 
