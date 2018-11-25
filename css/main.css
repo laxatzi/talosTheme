@@ -289,7 +289,9 @@ ul.list {
     margin-right: 10px;
 }
 @media screen and (min-width: 768px) {
- 
+    .lead {
+        font-size: 1.65rem;
+    }
     .navbar-nav {
         background-color: transparent;
     }
