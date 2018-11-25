@@ -319,6 +319,18 @@ ul.list {
        font-size: 1.25rem;
        margin: .845rem auto;
     }
+
+    .fa-social {
+        font-size: 1.555rem;
+    }
+    
+    .section-referral .block-icon .fa-custom {
+        font-size: 5rem;
+        padding: .835rem .1.035rem;
+    }
+    .section-referral .block-icon {
+        padding-top: 20px;
+    }
   .list span {
      font-size: 1.15rem;  
      font-weight: 300;
