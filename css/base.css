@@ -30,14 +30,14 @@
       
   h1 {
        color: #fff;
-       font-size: 240%;
+       font-size: 180%;
        word-spacing: 4px;
        line-height: 145%;
         letter-spacing: 1px;
         padding: 10px 10px;  /* new */
      }
    h2 {
-       font-size: 140%;
+       font-size: 130%;
        word-spacing: 2px;
        text-align: center;
        letter-spacing: 1px;
@@ -61,7 +61,15 @@
    small {
     font-size: 90%;
 }
-
+a:link,
+a:visited {
+  color:  #206BBC;
+}
+a:hover,
+a:focus{
+    color: #DC3545;
+    text-decoration: none;
+}
 
 @media screen and (min-width: 768px){
     h1,
