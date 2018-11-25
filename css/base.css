@@ -61,7 +61,15 @@
    small {
     font-size: 90%;
 }
-
+a:link,
+a:visited {
+  color:  #206BBC;
+}
+a:hover,
+a:focus{
+    color: #DC3545;
+    text-decoration: none;
+}
 
 @media screen and (min-width: 768px){
     h1,
