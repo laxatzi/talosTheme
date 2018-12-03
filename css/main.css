@@ -278,6 +278,9 @@ ul.list {
 .insurance-main img {
     width: 13%;
 }
+.app-download img {
+    margin-top: 20px;
+}
 .pdf-links li {
     list-style-type: none;
     margin-bottom: 20px;
@@ -357,4 +360,12 @@ ul.list {
     padding-bottom: 30px;
  }
 
+}
+/* MEDIA SCREEN 992px */
+
+@media screen and ( min-width: 992px ) {
+    .app-download img {
+        width: 150%;
+        max-width: 225px;
+     } 
 }
