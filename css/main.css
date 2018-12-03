@@ -11,6 +11,17 @@ a.link-custom-reverse {
     color:#DC3545;
 }
 
+a.link-custom {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+a.link-custom:hover,
+a.link-custom:focus {
+    color: #DC3545;
+    background-color: #fff;
+}
+
 /* ^HEADER	    */
  .header-main {
      background-image: url("../img/insuranceAgentSmall.jpg");
