@@ -3,11 +3,23 @@
     display: none;
 }
 .lead { color: #fff; }
-  .padding-extended {
-      padding: 7rem 0;
-  }
+ 
 .bg-lightgrey {
     background-color: #F4F4F4;
+}
+a.link-custom-reverse {
+    color:#DC3545;
+}
+
+a.link-custom {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+a.link-custom:hover,
+a.link-custom:focus {
+    color: #DC3545;
+    background-color: #fff;
 }
 
 /* ^HEADER	    */
@@ -362,7 +374,6 @@ ul.list {
 
 }
 /* MEDIA SCREEN 992px */
-
 @media screen and ( min-width: 992px ) {
     .app-download img {
         width: 150%;
