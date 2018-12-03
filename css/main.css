@@ -278,6 +278,9 @@ ul.list {
 .insurance-main img {
     width: 13%;
 }
+.app-download img {
+    margin-top: 20px;
+}
 .pdf-links li {
     list-style-type: none;
     margin-bottom: 20px;
