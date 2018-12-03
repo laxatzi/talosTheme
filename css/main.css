@@ -7,6 +7,9 @@
 .bg-lightgrey {
     background-color: #F4F4F4;
 }
+a.link-custom-reverse {
+    color:#DC3545;
+}
 
 /* ^HEADER	    */
  .header-main {
