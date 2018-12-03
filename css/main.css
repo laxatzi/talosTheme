@@ -361,3 +361,11 @@ ul.list {
  }
 
 }
+/* MEDIA SCREEN 992px */
+
+@media screen and ( min-width: 992px ) {
+    .app-download img {
+        width: 150%;
+        max-width: 225px;
+     } 
+}
